@@ -222,7 +222,7 @@ console.log(femaleCharacters);
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
-let randNum = Math.floor(Math.random() * 10);
+let randNum = Math.floor(Math.random() * starWarsCharacters.length);
 console.log(
   "Il mio nome é " + starWarsCharacters[randNum].name + ",",
   "sono alto " + starWarsCharacters[randNum].height + "cm,",
